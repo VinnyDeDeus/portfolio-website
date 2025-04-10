@@ -104,3 +104,11 @@ a {
 .contato a:hover {
     font-size: 18px;
 }
+
+.creditos {
+    text-align: center;
+}
+
+.creditos a {
+    color: B6C2CE;
+}
