@@ -57,7 +57,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     width: auto;
-    padding: 25px 50px 45px 50px;
+    padding: 25px 50px 50px 50px;
 }
 
 .projetos h2 {
@@ -66,13 +66,9 @@ a {
 }
 
 .projetos-grid {
-    display: grid;
-    grid-gap: 175px;
-    padding: 16px;
-    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(160px,1fr);
-    overflow-x: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
 }
 
 .projeto {
