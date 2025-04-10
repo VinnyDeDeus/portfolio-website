@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divider {
+    padding: 15px;
+}
+
+/* MENU */
+.topnav {
+    background-color: #4D766E;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnav a {
+    float: left;
+    color: #FAFBFD;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #688990;
+  color: #323232;
+}
+
+/* SOBRE MIM */
+.sobremim {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+}
+
+/* PROJETOS */
+.projetos {
+    background-color: #B6C2CE;
+    color: #323232;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    width: 85%;
+    padding: 25px 50px 15px 50px;
+}
+
+.projetos h2 {
+    padding-left: 105px;
+    padding-bottom: 5px;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.projeto {
+    background-color: #4D766E;
+    color: #FAFBFD;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.projeto:hover {
+    opacity: 0.75;
+}
+
+.projeto img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* CONTATO */
+.contato {
+    text-align: center;
+}
+
+.contato a {
+    color: #FAFBFD;
+    padding: 50px;
+    transition: font-size 150ms ease-in-out;
+}
+
+.contato a:hover {
+    font-size: 18px;
+}
